@@ -1,0 +1,85 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url('../images/shipping-backsplash.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+/* Mobile View */
+@media only screen and (max-width: 600px) {
+
+  .home-hero {
+    padding: 25px;
+    color: #fff;
+  }
+
+
+  .div-type-1 {
+    background-color: rgb(245, 245, 245);
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .div-type-2 {
+    background-color: #fff;
+    padding: 25px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+/* Full Screen */
+@media only screen and (min-width: 600px) {
+  .home-hero {
+    color: #fff;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 50vh;
+  }
+
+  .div-type-1 {
+    background-color: rgb(245, 245, 245);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    justify-content: space-between;
+  }
+
+  .div-type-2 {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .innertext {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 960px;
+    width: 90%;
+    max-width: 1200px;
+  }
+
+  #contact {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
