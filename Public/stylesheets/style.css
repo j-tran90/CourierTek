@@ -1,11 +1,35 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url('../images/shipping-backsplash.jpg');
+}
+
+.flex-wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.hero {
+  background-image: url('../images/warehouse.jpg');
   background-attachment: fixed;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
+}
 
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  background-color: rgba(0, 0, 0, 0.514);
+}
+
+.hero-text {
+  color: #fff;
+  position: relative;
 }
 
 a {
@@ -16,24 +40,33 @@ a {
 /* Mobile View */
 @media only screen and (max-width: 600px) {
 
+  body {
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  }
+
   .home-hero {
     padding: 25px;
-    color: #fff;
+    min-height: 50vh;
   }
 
 
   .div-type-1 {
     background-color: rgb(245, 245, 245);
-    padding: 25px;
+    padding: 13px;
     margin-left: auto;
     margin-right: auto;
+    min-height: 50vh;
   }
 
   .div-type-2 {
     background-color: #fff;
-    padding: 25px;
+    padding: 13px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #contact {
+    padding: 13px;
   }
 }
 
@@ -41,10 +74,9 @@ a {
 /* Full Screen */
 @media only screen and (min-width: 600px) {
   .home-hero {
-    color: #fff;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 50px;
+    padding-left: 138px;
+    padding-right: 138px;
+    padding-top: 150px;
     padding-bottom: 50px;
     min-height: 50vh;
   }
@@ -54,12 +86,14 @@ a {
     padding-top: 50px;
     padding-bottom: 50px;
     justify-content: space-between;
+    min-height: 50vh;
   }
 
   .div-type-2 {
     background-color: #fff;
     padding-top: 50px;
     padding-bottom: 50px;
+    min-height: 50vh;
   }
 
   .innertext {
@@ -71,15 +105,7 @@ a {
   }
 
   #contact {
-    padding-left: 150px;
-    padding-right: 150px;
     padding-top: 50px;
     padding-bottom: 50px;
   }
-}
-
-.flex-wrapper {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
 }
