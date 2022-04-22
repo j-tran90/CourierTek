@@ -8,16 +8,32 @@
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
+          <% if (title == "Home") { %>
+            <a class="nav-link active" href="/">Home</a>
+                <% } else { %>
+            <a class="home-page" href="/">Home</a>
+          <% } %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" aria-current="page" href="#feature">Features</a>
+          <% if (title == "Features") { %>
+            <a class="nav-link disabled" href="/feature">Features</a>
+                <% } else { %>
+          <a class="nav-link disabled" aria-current="page" href="/feature">Features</a>
+          <% } %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#price">Pricing</a>
+          <% if (title == "Pricing") { %>
+            <a class="nav-link disabled" href="/price">Pricing</a>
+                <% } else { %>
+          <a class="nav-link disabled" href="/price">Pricing</a>
+          <% } %>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contact" tabindex="-1">Contact</a>
+          <% if (title == "Contact") { %>
+            <a class="nav-link" href="/contact">Contact</a>
+                <% } else { %>
+          <a class="nav-link" href="/contact" tabindex="-1">Contact</a>
+          <% } %>
         </li>
       </ul>
     </div>
