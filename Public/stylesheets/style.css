@@ -45,6 +45,10 @@ a {
   text-decoration: none;
 }
 
+i {
+  color: orange;
+}
+
 .page-template {
   background-attachment: fixed;
   background-position: top;
@@ -83,7 +87,7 @@ a {
 
   .page-template {
     padding: 25px;
-    min-height: 30vh;
+    min-height: 15vh;
   }
 
   .div-type-1 {
