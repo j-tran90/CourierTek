@@ -11,7 +11,7 @@ let app = express();
 export default app; //export app as the default object for this module
 
 // view engine setup
-app.set('views', path.join(__dirname, '../../Server/Views'));
+app.set('Views', path.join(__dirname, '../../Server/Views'));
 app.set('view engine', 'ejs');
 
 app.use(logger('dev'));
