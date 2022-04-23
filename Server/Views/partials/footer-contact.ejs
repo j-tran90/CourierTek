@@ -1,8 +1,23 @@
 <div class="container" id="contact">
   <div class="innertext">
     <div class="row">
-      <div class="col-sm-8">
-        <h1>Contact</h1><p>
+      <div class="col-sm-2">
+        <% if (title == "Home") { %>
+          <a class="navbar-brand" style="color: orange" href="/">
+            <i class="fa-solid fa-paper-plane"></i> CourierTek</a>
+              <% } else { %>
+          <a class="navbar-brand" style="color: orange" href="/">
+            <i class="fa-solid fa-paper-plane"></i> CourierTek</a>
+        <% } %>
+      </div><br><br>
+      <div class="col-sm-2">
+        <h3 class="text-white-50">Company</h3>
+        <a href="#" id="white-link" ></a>About<br>
+        <a href="#" id="white-link" ></a>Privacy Policy<br>
+        <a href="/contact" id="white-link" >Contact</a><br><br>
+      </div>
+      <div class="col-sm-4">
+        <h3 class="text-white-50">Contact</h3><p>
             We have multiple ways for you to reach us and we want to start working with you.<p>
               <i class="fa-solid fa-envelope"></i>  Email: sales@CourierTek.com<br>
               <i class="fa-solid fa-phone"></i>  Phone: 1-800-555-5555<br>
@@ -10,12 +25,10 @@
             <p>
               <i class="fa-solid fa-location-dot"></i>  PO Box 115500 Station B, Toronto, Ontario, Canada
             </p>
-      </div>
-      <div class="col-sm-4">
-        <h2>About us</h2><br>
-        Privacy Policy<br>
-        Company History<br>
-        <a style="color: orange;" href="/contact">Contact</a><br>
+      </div><br><br>
+      <div class="col-sm-4" style="padding-left: 25px;">
+        <a href="#"><i class="fa-brands fa-facebook" style="color: grey; font-size: 40px"></i></a>&nbsp;&nbsp;
+        <a href="#"><i class="fa-brands fa-linkedin" style="color: grey; font-size: 40px"></i></a>
       </div>
     </div>
   </div>

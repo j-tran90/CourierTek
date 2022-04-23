@@ -1,5 +1,11 @@
+/** Bootstrap Override **/
+.nav-link:hover {
+  color: orange;
+}
+
+/** Bootstrap Override - ENDS **/
+
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
   line-height: 1.75;
 }
 
@@ -45,6 +51,14 @@ a {
   text-decoration: none;
 }
 
+a:hover {
+  color: rgb(66, 66, 66);
+}
+
+#white-link:hover {
+  color: orange;
+}
+
 i {
   color: orange;
 }
@@ -60,6 +74,7 @@ i {
   padding-top: 150px;
   padding-bottom: 50px;
   min-height: 30vh;
+  max-height: auto;
 }
 
 .page-template::before {
@@ -77,7 +92,7 @@ i {
 @media only screen and (max-width: 600px) {
 
   body {
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    line-height: 1;
   }
 
   .home-hero {
@@ -107,6 +122,7 @@ i {
     margin-left: auto;
     margin-right: auto;
     min-height: 94vh;
+    max-height: auto;
   }
 
   #contact {
@@ -131,6 +147,7 @@ i {
     padding-bottom: 100px;
     justify-content: space-between;
     min-height: 50vh;
+    max-height: auto;
   }
 
   .div-type-2 {
@@ -138,7 +155,7 @@ i {
     padding-top: 100px;
     padding-bottom: 100px;
     min-height: 50vh;
-    max-height: 50vh;
+    max-height: auto;
   }
 
   .innertext {
@@ -152,5 +169,7 @@ i {
   #contact {
     padding-top: 50px;
     padding-bottom: 50px;
+    max-height: auto;
   }
 }
+
