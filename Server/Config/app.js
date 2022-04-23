@@ -11,7 +11,7 @@ const morgan_1 = __importDefault(require("morgan"));
 const index_1 = __importDefault(require("../Routes/index"));
 let app = (0, express_1.default)();
 exports.default = app;
-app.set('views', path_1.default.join(__dirname, '../../Server/views'));
+app.set('Views', path_1.default.join(__dirname, '../../Server/Views'));
 app.set('view engine', 'ejs');
 app.use((0, morgan_1.default)('dev'));
 app.use(express_1.default.json());
