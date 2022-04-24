@@ -3,28 +3,28 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.DisplayContactPage = exports.DisplayPricePage = exports.DisplayFeaturePage = exports.DisplayHomePage = void 0;
 function DisplayHomePage(req, res, next) {
     res.render('index', {
-        title: 'Home',
+        title: 'CourierTek',
         page: 'home'
     });
 }
 exports.DisplayHomePage = DisplayHomePage;
 function DisplayFeaturePage(req, res, next) {
     res.render('index', {
-        title: 'Feature',
+        title: 'Features - CourierTek',
         page: 'feature'
     });
 }
 exports.DisplayFeaturePage = DisplayFeaturePage;
 function DisplayPricePage(req, res, next) {
     res.render('index', {
-        title: 'Price',
+        title: 'Pricing - CourierTek',
         page: 'price'
     });
 }
 exports.DisplayPricePage = DisplayPricePage;
 function DisplayContactPage(req, res, next) {
     res.render('index', {
-        title: 'Contact',
+        title: 'Contact - CourierTek',
         page: 'contact'
     });
 }

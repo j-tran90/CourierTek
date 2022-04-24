@@ -6,28 +6,28 @@ import express, {
 
 export function DisplayHomePage(req: Request, res: Response, next: NextFunction): void {
         res.render('index', {
-                title: 'Home',
+                title: 'CourierTek',
                 page: 'home'
         });
 }
 
 export function DisplayFeaturePage(req: Request, res: Response, next: NextFunction): void {
         res.render('index', {
-                title: 'Feature',
+                title: 'Features - CourierTek',
                 page: 'feature'
         });
 }
 
 export function DisplayPricePage(req: Request, res: Response, next: NextFunction): void {
         res.render('index', {
-                title: 'Price',
+                title: 'Pricing - CourierTek',
                 page: 'price'
         });
 }
 
 export function DisplayContactPage(req: Request, res: Response, next: NextFunction): void {
         res.render('index', {
-                title: 'Contact',
+                title: 'Contact - CourierTek',
                 page: 'contact'
         });
 }
