@@ -1,7 +1,11 @@
 /** Bootstrap Override **/
-.nav-link:hover {
+.navbar .navbar-nav .nav-link:hover {
   color: orange;
-}
+  }
+
+  .navbar .navbar-nav .nav-link.active {
+    color: orange;
+  }
 
 /** Bootstrap Override - ENDS **/
 
@@ -103,6 +107,7 @@ i {
   .page-template {
     padding: 25px;
     min-height: 15vh;
+    max-height: auto;
   }
 
   .div-type-1 {
@@ -127,6 +132,7 @@ i {
 
   #contact {
     padding: 13px;
+    line-height: 1.75;
   }
 }
 
