@@ -8,6 +8,8 @@ const router = express_1.default.Router();
 exports.default = router;
 const index_1 = require("../Controller/index");
 router.get('/', index_1.DisplayHomePage);
+router.get('/feature', index_1.DisplayFeaturePage);
+router.get('/price', index_1.DisplayPricePage);
 router.get('/contact', index_1.DisplayContactPage);
 module.exports = router;
 //# sourceMappingURL=index.js.map
