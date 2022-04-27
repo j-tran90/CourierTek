@@ -56,7 +56,7 @@ a {
 }
 
 a:hover {
-  color: rgb(66, 66, 66);
+  color: orange;
 }
 
 #white-link:hover {
