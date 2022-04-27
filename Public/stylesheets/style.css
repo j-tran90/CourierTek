@@ -86,7 +86,7 @@ ul {
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain auto;
   position: relative;
   padding-left: 138px;
   padding-right: 138px;
