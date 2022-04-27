@@ -86,7 +86,7 @@ ul {
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
-  background-size: 100vh auto;
+  background-size: cover auto;
   position: relative;
   padding-left: 138px;
   padding-right: 138px;
@@ -132,6 +132,7 @@ ul {
     background-position: top;
     background-repeat: no-repeat;
     background-size: 100vh auto;
+    position: relative;
     padding: 25px;
     min-height: 15vh;
     max-height: auto;
