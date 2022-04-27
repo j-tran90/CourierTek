@@ -86,7 +86,7 @@ ul {
   background-attachment: fixed;
   background-position: top;
   background-repeat: no-repeat;
-  background-size: contain auto;
+  background-size: 100vh auto;
   position: relative;
   padding-left: 138px;
   padding-right: 138px;
@@ -114,12 +114,24 @@ ul {
     line-height: 1;
   }
 
+  .hero {
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vh;
+    position: relative;
+  }
+
   .home-hero {
     padding: 25px;
     min-height: 50vh;
   }
 
   .page-template {
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100vh auto;
     padding: 25px;
     min-height: 15vh;
     max-height: auto;
