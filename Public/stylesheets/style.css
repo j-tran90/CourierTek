@@ -59,12 +59,27 @@ a:hover {
   color: orange;
 }
 
+#white-link {
+  color: white;
+}
 #white-link:hover {
   color: orange;
 }
 
 i {
   color: orange;
+}
+
+ul {
+  position: relative;
+  list-style: none;
+}
+
+.list::before {
+  content: '➤';
+  color: white;
+  position: absolute;
+  left: 0;
 }
 
 .page-template {
@@ -133,6 +148,14 @@ i {
   #contact {
     padding: 13px;
     line-height: 1.75;
+  }
+
+  .img-sm {
+    display:none !important;
+  }
+
+  .img-md {
+    padding-block: 20px;
   }
 }
 
