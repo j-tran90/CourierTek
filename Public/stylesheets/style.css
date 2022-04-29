@@ -213,6 +213,10 @@ ul {
     padding-bottom: 50px;
     max-height: auto;
   }
+
+  .nextBtn {
+    display: none;
+  }
 }
 
 /** Price Cards **/
