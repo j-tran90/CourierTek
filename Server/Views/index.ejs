@@ -9,6 +9,7 @@
   <!-- Navigation section-->
   <%- include('./partials/nav.ejs') %>
 
+
   <!-- Flex Wrap -->
   <div class="flex-wrapper">
 
@@ -21,12 +22,15 @@
       <%- include('./partials/footer.ejs') %>
     </footer>
 
-    <!-- JavaScript Section-->
-    <script src="/jquery/dist/jquery.min.js"></script>
-    <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
-        <script src="/scripts/app.js"></script>
-
   </div>
+
+  <button onclick="topFunction()" id="backTopBtn" title="Go to top"><i class="fa-solid fa-arrow-up"></i></button>
+
 </body>
+
+  <!-- JavaScript Section-->
+  <script src="/scripts/app.js"></script>
+  <script src="/jquery/dist/jquery.min.js"></script>
+  <script src="/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </html>
