@@ -31,3 +31,10 @@ export function DisplayContactPage(req: Request, res: Response, next: NextFuncti
                 page: 'contact'
         });
 }
+
+export function DisplayPrivacyPage(req: Request, res: Response, next: NextFunction): void {
+        res.render('index', {
+                title: 'Privacy Policy - CourierTek',
+                page: 'privacy'
+        });
+}

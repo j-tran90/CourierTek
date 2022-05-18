@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.DisplayContactPage = exports.DisplayPricePage = exports.DisplayFeaturePage = exports.DisplayHomePage = void 0;
+exports.DisplayPrivacyPage = exports.DisplayContactPage = exports.DisplayPricePage = exports.DisplayFeaturePage = exports.DisplayHomePage = void 0;
 function DisplayHomePage(req, res, next) {
     res.render('index', {
         title: 'CourierTek',
@@ -29,4 +29,11 @@ function DisplayContactPage(req, res, next) {
     });
 }
 exports.DisplayContactPage = DisplayContactPage;
+function DisplayPrivacyPage(req, res, next) {
+    res.render('index', {
+        title: 'Privacy Policy - CourierTek',
+        page: 'privacy'
+    });
+}
+exports.DisplayPrivacyPage = DisplayPrivacyPage;
 //# sourceMappingURL=index.js.map
