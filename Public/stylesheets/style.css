@@ -1,10 +1,20 @@
 /** Bootstrap Override **/
 .navbar .navbar-nav .nav-link:hover {
-  color: orange;
+  color: #f56d01;
 }
 
 .navbar .navbar-nav .nav-link.active {
-  color: orange;
+  color: #f56d01;
+}
+
+.btn-warning {
+  background-color: #f56d01 !important;
+  color: #fff;
+  outline: none !important;
+}
+
+.btn-warning:hover {
+  background-color: #ff9100 !important;
 }
 
 /** Bootstrap Override - ENDS **/
@@ -56,18 +66,18 @@ a {
 }
 
 a:hover {
-  color: orange;
+  color: #f56d01;
 }
 
 #white-link {
   color: white;
 }
 #white-link:hover {
-  color: orange;
+  color: #f56d01;
 }
 
 i {
-  color: orange;
+  color: #f56d01;
 }
 
 ul {
