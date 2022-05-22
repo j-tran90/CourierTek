@@ -91,6 +91,14 @@ ul {
   left: 0;
 }
 
+.list:any-link{
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.list:any-link:hover {
+  color: #fff;
+}
+
 .page-template {
   background-attachment: fixed;
   background-position: top;
