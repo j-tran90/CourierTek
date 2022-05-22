@@ -18,7 +18,7 @@ exports.DisplayFeaturePage = DisplayFeaturePage;
 function DisplayPricePage(req, res, next) {
     res.render('index', {
         title: 'Pricing - CourierTek',
-        page: 'price'
+        page: 'home'
     });
 }
 exports.DisplayPricePage = DisplayPricePage;

@@ -21,7 +21,7 @@ export function DisplayFeaturePage(req: Request, res: Response, next: NextFuncti
 export function DisplayPricePage(req: Request, res: Response, next: NextFunction): void {
         res.render('index', {
                 title: 'Pricing - CourierTek',
-                page: 'price'
+                page: 'home'
         });
 }
 
